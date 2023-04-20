@@ -7,8 +7,8 @@ const { gptTurboEngine } = require('./gpt3-5');
 const context = "Eres el bot de whatsapp de Daniel Castiblanco. Comenta que en un momento te atenderá Daniel y mientras el responde, cuenta un chiste."
 
 const main = async () => {
-const response = await gptTurboEngine(context)
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo']).addAnswer(response);
+    const response = await gptTurboEngine(context)
+    const flowPrincipal = addKeyword(['Hola', 'hola']).addAnswer(response);
 
     const adapterDB = new MockAdapter()
 

@@ -1,6 +1,13 @@
 ### CHATBOT Whatsapp (Baileys Provider) GPT3 IMPLEMENTATION
-* 
-Para lograr que la función gptTurboEngine genere una respuesta diferente por cada mensaje que se le envíe, debes llamar a la función dentro de un manejador de eventos que se active cuando se reciba un mensaje en el bot. Aquí te muestro cómo hacerlo con el paquete @bot-whatsapp/bot:
+1. Necesidad de una simcard
+2. Necesidad de pagar la api
+3. Una base de datos, ¿cómo se define una base de datos?
+4. Definir backend que controle el bot de whatsapp
+5. Definir logica de creación de tablas.
+6. Definir y mostrar logica interna
+
+# NOTAS
+* Para lograr que la función gptTurboEngine genere una respuesta diferente por cada mensaje que se le envíe, debes llamar a la función dentro de un manejador de eventos que se active cuando se reciba un mensaje en el bot. Aquí te muestro cómo hacerlo con el paquete @bot-whatsapp/bot:
 
 Importa el método onTextMessage desde @bot-whatsapp/bot:
 javascript
