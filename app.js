@@ -4,7 +4,7 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 const { gptTurboEngine } = require('./gpt3-5');
-const context = "Eres el bot de whatsapp de Daniel Castiblanco. Comenta que en un momento te atenderá Daniel y mientras el responde, cuenta un chiste."
+const context = "Eres el bot de whatsapp de SUMA. (SUMA: es una app de gestión de incidentes para proveerdores de servicios de tecnología) Comenta sobre SUMA y su creación de incidentes"
 
 const main = async () => {
     const response = await gptTurboEngine(context)
